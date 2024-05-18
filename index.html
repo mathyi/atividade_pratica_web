@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minha Landing Page</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <div class="first-title">
+        <h1>Bem-vindo!</h1>
+      </div>
+      <nav>
+        <!-- Container para o menu de navegção-->
+        <div class="nav-container">
+          <div><a href="#sobre-mim">Sobre mim</a></div>
+          <div><a href="#formacao">Formação educacional</a></div>
+          <div><a href="#portfolio">Portfólio</a></div>
+          <div><a href="#contato">Contato</a></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Seção sobre mim-->
+      <div class="sobre-mim">
+        <h2 id="sobre-mim">Sobre mim</h2>
+        <div class="sobre-mim-container">
+          <img src="images/perfil.jpg" alt="foto de perfil" id="img01" />
+          <div class="paragraph-container">
+            <p>
+              Olá, meu nome é Matheus, tenho 22 anos de idade, nascido e criado
+              em Goiás. Sou estudante de Engenharia de Software na Uninter.
+              <br />
+              Atualmente atuo no setor administrativo no ramo automotivo.
+              Pretendo migrar de carreira para a área de Tecnologia que é meu
+              grande sonho.
+              <br />
+              Desde pequeno sempre fui muito apegado a Tecnologia no geral,
+              sempre usei computador e desenvolvi habilidades autodidatas muito
+              cedo, também com essa vivencia adquiri uma facilidade para
+              utilizar softwares de edição e diagramação, sempre tive muita
+              curiosidade com uma grande vontade de aprender.
+              <br />
+              Meu interesse pela area de programação e desenvolvimento de
+              software começou lá em 2019, quando passei a acompanhar
+              desenvolvedores de jogos e fiquei fascinado.
+              <br />
+              Entre idas e vindas, fiz alguns cursos online de desenvolvimento
+              de jogos e começei alguns projetos.
+              <br />
+              Em 2022 decidi que era isso que eu queria para minha vida e
+              busquei ingressar em uma universidade para poder me preparar para
+              o mercado de trabalho.
+              <br />
+              Cada dia que aprendo algo nesta área seja na faculdade, seja em
+              cursos, seja por conta própria, só aumenta minha vontade de
+              aprender e aprender cada vez mais, sempre almejando ingressar no
+              mercado profisional.
+              <br />
+              E que seja um inicio de carreira muito brilhante!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção formação-->
+      <div class="formacao">
+        <h2 id="formacao">Formação educacional</h2>
+        <div class="formacao-container">
+          <ul>
+            <li>Ensino superior:</li>
+            <ul>
+              <li>Engenharia de Software</li>
+              <ul>
+                <li>Universidade: Uninter</li>
+                <li>Conclusao: Março/2026</li>
+              </ul>
+            </ul>
+          </ul>
+          <ul>
+            <li>Cursos complementares:</li>
+            <ul>
+              <li>Formação fullstack</li>
+              <ul>
+                <li>OneBitCode</li>
+                <li>Em andamento</li>
+              </ul>
+              <li>CSJ academy</li>
+              <ul>
+                <li>Crie seus jogos</li>
+                <li>Em andamento</li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <!-- Container para apresentar o link para o github-->
+      <div class="portifolio">
+        <h2 id="portfolio">Portfólio</h2>
+        <div class="portifolio-container">
+          <img src="images/github.png" alt="Logo github" id="img02" />
+          <div class="text-portifolio-container">
+            <h3>
+              Acesse meu github <br />
+              para vizualizar meu portifólio com meus projetos!
+            </h3>
+            <div id="click02">
+              <a href="https://github.com/mathyi" target="_blank"
+                >Clique aqui!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Seção contato-->
+      <div class="contato">
+        <h2 id="contato">Contato</h2>
+        <div class="formulario-container">
+          <form action="" target="_self" method="post">
+            <!-- Tabela para formatação com os inputs-->
+            <table>
+              <caption>
+                Entre em contato comigo!
+              </caption>
+              <tr>
+                <th>Nome:</th>
+                <td>
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    size="30"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th>Sobrenome:</th>
+                <td>
+                  <input
+                    type="text"
+                    id="second-name"
+                    name="second-name"
+                    size="30"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th>Assunto</th>
+                <td>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    size="30"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    size="30"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th>Mensagem:</th>
+                <td>
+                  <textarea
+                    name="mensagem"
+                    id="mensagem"
+                    rows="4"
+                    cols="30"
+                    maxlength="200"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <th></th>
+                <td><input type="submit" value="Enviar" /></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

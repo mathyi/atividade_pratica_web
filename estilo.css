@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bfdbf7;
+}
+header {
+  position: relative;
+  width: 100%;
+}
+.first-title {
+  background-color: #053c5e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #8f1620;
+}
+.nav-container > div {
+  background-color: #a31621;
+  width: 200px;
+  margin: 0;
+  text-align: center;
+  line-height: 45px;
+  font-size: 15px;
+}
+div > a {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+main {
+  margin: 0;
+  border: 0;
+  width: 100%;
+}
+footer {
+  background-color: #053c5e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.sobre-mim {
+  padding: 0px 0px 30px 0px;
+  margin: auto;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+#img01 {
+  width: 32%;
+  height: 32%;
+  padding: 0px 30px 0px 50px;
+}
+.paragraph-container {
+  margin: 0;
+  padding: 0;
+}
+.paragraph-container p {
+  margin: auto;
+  padding: 0;
+}
+.sobre-mim-container {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  margin: auto;
+}
+.formacao {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.formacao-container {
+  padding: 0;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formacao-container > ul > li {
+  background-color: #a31621;
+  color: white;
+  width: 200px;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+}
+.portifolio {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+.portifolio-container {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.text-portifolio-container {
+  width: 100%;
+  padding: 100px 100px 100px 20px;
+}
+#click02 {
+  background-color: blue;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+}
+#click02 > a {
+  text-align: center;
+}
+#img02 {
+  width: 30%;
+  height: 30%;
+  margin: 20px;
+  padding: 0px 30px 20px 50px;
+}
+.contato > h2 {
+  margin: auto;
+  padding: 0;
+}
+.contato {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(85, 66, 190);
+}
+table tr {
+  color: white;
+}
+table > caption {
+  color: white;
+}
+table {
+  padding: 10px;
+  margin: 0x;
+  background-color: rgb(101, 74, 255);
+}
