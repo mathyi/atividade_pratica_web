@@ -23,15 +23,14 @@ header {
 }
 .nav-container > div {
   background-color: #a31621;
-  width: 200px;
+  width: 410px;
   margin: 0;
   text-align: center;
   line-height: 45px;
-  font-size: 15px;
 }
 div > a {
   color: white;
-  font-size: 15px;
+  font-size: 30px;
 }
 a {
   text-decoration: none;
@@ -59,21 +58,17 @@ h2 {
   text-align: center;
   background-color: grey;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 #img01 {
-  width: 20%;
-  height: 20%;
+  width: 25%;
+  height: 25%;
   padding: 0px 30px 0px 50px;
 }
-.paragraph-container {
-  margin: 0;
-  padding: 0;
-}
-.paragraph-container p {
+p {
   margin: auto;
   padding: 0;
-  font-size: 15px;
+  font-size: 25px;
 }
 .sobre-mim-container {
   display: flex;
@@ -95,11 +90,17 @@ h2 {
 .formacao-container > ul > li {
   background-color: #a31621;
   color: white;
-  width: 200px;
-  text-align: center;
+  width: 350px;
+  padding: 5px;
   list-style-type: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 30px;
+}
+.formacao-container > ul > ul > ul,
+li {
+  font-size: 26px;
+  color: rgb(63, 63, 63);
+  font-style: oblique;
 }
 .portifolio {
   width: 100%;
@@ -117,16 +118,16 @@ h2 {
   padding: 100px 100px 100px 20px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 40px;
 }
 #click02 {
   background-color: blue;
-  width: 100px;
-  height: 20px;
+  width: 250px;
   padding: 10px;
 }
 #click02 > a {
   text-align: center;
+  margin: 40px;
 }
 #img02 {
   width: 30%;
@@ -140,20 +141,24 @@ h3 {
 }
 .contato {
   width: 100%;
-  margin: auto;
-  padding: 0;
 }
 
 .formulario-container {
   display: flex;
   justify-content: center;
   background-color: rgb(85, 66, 190);
+  padding: 0px 0px 70px 0px;
 }
-table tr {
+form input {
+  height: 20px;
+}
+table th {
   color: white;
+  font-size: 20px;
 }
 table > caption {
   color: white;
+  font-size: 30px;
 }
 table {
   padding: 10px;
